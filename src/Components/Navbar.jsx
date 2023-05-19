@@ -18,6 +18,7 @@ function Navbar() {
           <a className="contact-btn" href="/#">
             Contact
           </a>
+
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>
