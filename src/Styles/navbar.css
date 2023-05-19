@@ -79,4 +79,8 @@ header .nav-btn {
   nav a {
     font-size: 1.5rem;
   }
+  .contact-btn {
+    position: static;
+    transform: none;
+  }
 }
