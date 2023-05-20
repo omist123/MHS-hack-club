@@ -1,6 +1,7 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import "../Styles/navbar.css";
+import logo from "../assets/hackclub-flag.svg";
 function Navbar() {
   const navRef = useRef();
 
@@ -10,11 +11,12 @@ function Navbar() {
   return (
     <div>
       <header>
-        <h3>MHS Hack Club</h3>
+        <img className="w-36 h-36 ml-4" src={logo} alt="" />
+
         <nav ref={navRef}>
-          <a href="/#">Home</a>
-          <a href="/#">Join</a>
-          <a href="/#">Donate</a>
+          <a href="/">Home</a>
+          <a href="/join">Join</a>
+          <a href="/donate">Donate</a>
           <a className="contact-btn" href="/#">
             Contact
           </a>

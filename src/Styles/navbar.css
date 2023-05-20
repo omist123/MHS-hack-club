@@ -8,7 +8,7 @@
 }
 :root {
   --mainColor: #252429;
-  --textColor: #EC3750;
+  --textColor: #ec3750;
   --secondaryColor: #c3525f;
 }
 header {
@@ -21,7 +21,6 @@ header {
   color: var(--textColor);
   position: relative;
 }
-
 
 nav a {
   margin: 0 2rem;
@@ -43,7 +42,6 @@ header .nav-btn {
   visibility: hidden;
   opacity: 0;
   font-size: 1.7rem;
-
 }
 .contact-btn {
   position: absolute;
