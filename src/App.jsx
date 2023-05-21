@@ -5,15 +5,17 @@ import Home from "./Components/Home";
 import Donate from "./Components/Donate";
 import Join from "./Components/Join";
 function App() {
-  let component
+  let component;
   switch (window.location.pathname) {
     case "/":
       component = <Home />;
       break;
     case "/donate":
       component = <Donate />;
+      break;
     case "/join":
       component = <Join />;
+      break;
   }
   return (
     <div className="App">
