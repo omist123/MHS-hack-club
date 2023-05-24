@@ -11,6 +11,7 @@
   --textColor: #ec3750;
   --secondaryColor: #c3525f;
 }
+
 header {
   display: flex;
   align-items: center;
@@ -46,8 +47,8 @@ header .nav-btn {
 .contact-btn {
   position: absolute;
   right: 1.8rem;
-  top: 50%; /* Add this line */
-  transform: translateY(-50%); /* Add this line */
+  top: 50%; 
+  transform: translateY(-50%); 
 }
 
 @media only screen and (max-width: 1024px) {

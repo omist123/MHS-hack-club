@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div>
       <header>
-        <img className="w-36 h-36 ml-4" src={logo} alt="" />
+        <img className="w-36 h-36 " src={logo} alt="" />
 
         <nav ref={navRef}>
           <a href="/">Home</a>
