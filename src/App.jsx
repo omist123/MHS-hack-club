@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-// https://theme.hackclub.com/ for theme assets
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Donate from "./Components/Donate";
 import Join from "./Components/Join";
+import Contact from "./Components/Contact";
 function App() {
   let component;
   switch (window.location.pathname) {
@@ -15,6 +15,9 @@ function App() {
       break;
     case "/join":
       component = <Join />;
+      break;
+    case "/contact":
+      component = <Contact />;
       break;
   }
   return (

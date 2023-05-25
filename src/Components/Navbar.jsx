@@ -17,7 +17,7 @@ function Navbar() {
           <a href="/">Home</a>
           <a href="/join">Join</a>
           <a href="/donate">Donate</a>
-          <a className="contact-btn" href="/#">
+          <a className="contact-btn" href="/contact">
             Contact
           </a>
 
