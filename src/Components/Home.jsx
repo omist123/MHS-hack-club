@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../Styles/home.css";
-// for image slider https://www.youtube.com/watch?v=tXlZCW26bto&t=187s&ab_channel=CodeCommerce 
+// for image slider https://www.youtube.com/watch?v=tXlZCW26bto&t=187s&ab_channel=CodeCommerce
 function Home() {
   const slides = [
     {
@@ -30,12 +30,12 @@ function Home() {
             Welcome! Thanks for dropping by!
             <br />
             <br />
-            MHS &nbsp;
+            MHS{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-600">
               Hack Club
-            </span>
-            &nbsp; is a space where students of all levels of experience gather
-            to collaborate and create cool things - for example, this website.
+            </span>{" "}
+            is a space where students of all levels of experience gather to
+            collaborate and create cool things - for example, this website.
           </p>
         </div>
         <img
@@ -44,9 +44,9 @@ function Home() {
           alt=""
         />
       </div>
-      <h1 className="text-red-500 lg:text-5xl sm:text-6xl flex flex-col justify-center items-center h-screen ">
-        hello
-      </h1>
+      <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative ">
+        <div style={{backgroundImage:`url(${slides[0].url})` }} className="w-full h-full rounded-2xl bg-center bg-cover duration-500"></div>
+      </div>  
     </>
   );
 }
