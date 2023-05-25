@@ -1,8 +1,11 @@
 function Join() {
   return (
-    <h1 className="text-red-500 pt-20 text-3xl flex flex-row justify-center">
-      join
-    </h1>
-  );
+    <>
+      <div className="flex flex-col items-center justify-center overflow-auto">
+        <h1 className="text-red-500 pt-10 text-3xl">Fill out this form to join!</h1>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe95N_MxtiiWM3XZB49AK-lUFF0Y6b0I-0jZr0JJScSPsBtmw/viewform?embedded=true" width="640" height="1431" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </>
+    );
 }
 export default Join;
