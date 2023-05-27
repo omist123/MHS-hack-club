@@ -61,7 +61,7 @@ function Home() {
         />
       </div>
       <div className="h-[400px]"></div>
-      <h1 className="text-red-500 lg:text-5xl text-3xl flex flex-row justify-center">
+      <h1 className="text-white lg:text-5xl text-3xl flex flex-row justify-center">
         Featured Projects
       </h1>
       <div className="max-w-[1400px] h-[780px] w-full m-auto my-2 py-16 px-4 relative group">
@@ -71,11 +71,11 @@ function Home() {
         ></div>
 
         {/*left icon*/}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full bg-black/20 text-white cursor-pointer">
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full bg-black/20 text-red-500 cursor-pointer">
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/*right icon*/}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] right-5 text-2xl rounded-full bg-black/20 text-white cursor-pointer">
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] right-5 text-2xl rounded-full bg-black/20 text-red-500 cursor-pointer">
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
         <div className="flex top-4 justify-center py-2">
@@ -85,13 +85,13 @@ function Home() {
               onClick={() => goToSlide(slideIndex)}
               className="text-2xl cursor-pointer"
             >
-              <RxDotFilled></RxDotFilled>
+              <RxDotFilled className="text-red-500"></RxDotFilled>
             </div>
           ))}
         </div>
       </div>
       <div className="h-screen">
-        <h1 className="text-red-500 text-4xl py-20 flex flex-col items-center">
+        <h1 className="text-white text-4xl py-20 flex flex-col items-center">
           Frequently Asked Questions (FAQs)
         </h1>
       </div>
