@@ -91,9 +91,42 @@ function Home() {
         </div>
       </div>
       <div className="h-screen">
-        <h1 className="text-white text-4xl py-20 flex flex-col items-center">
+        <h1 className="text-white text-4xl py-20 flex flex-col items-start ml-10">
           Frequently Asked Questions (FAQs)
         </h1>
+        <div className="flex flex-row items-center ml-10">
+          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
+            <span className="text-4xl text-white font-bold">Q</span>
+          </div>
+          <p className="text-white text-3xl ml-4">
+            I have never programmed before. Can I still join?{" "}
+          </p>
+        </div>
+        <div className="flex flex-row items-center ml-10 pt-10">
+          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
+            <span className="text-4xl text-white font-bold">A</span>
+          </div>
+          <p className="text-white text-3xl ml-4">
+            Of course! All MHS students interested in programming, regardless of
+            prior experience, are welcome to join, learn, and create.
+          </p>
+        </div>
+        <div className="flex flex-row items-center ml-10 pt-10">
+          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
+            <span className="text-4xl text-white font-bold">Q</span>
+          </div>
+          <p className="text-white text-3xl ml-4">
+            Why is the sky blue? What is the meaning of life?
+          </p>
+        </div>
+        <div className="flex flex-row items-center ml-10 pt-10">
+          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
+            <span className="text-4xl text-white font-bold">A</span>
+          </div>
+          <p className="text-white text-3xl ml-4">
+            “this deap bro” -Owen Mistretta, 2023
+          </p>
+        </div>
       </div>
     </>
   );
