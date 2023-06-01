@@ -59,7 +59,9 @@ function Home() {
           src="https://jgpr.net/wp-content/uploads/2019/12/melrose-logo-1-300x300.png"
           alt=""
         />
+
       </div>
+      
       <div className="h-[400px]"></div>
       <h1 className="text-white lg:text-5xl text-3xl flex flex-row justify-center">
         Featured Projects
