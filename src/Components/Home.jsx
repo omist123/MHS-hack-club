@@ -65,7 +65,9 @@ function Home() {
           src={Logo}
           alt=""
         />
+
       </div>
+      
       <div className="h-[400px]"></div>
       <h1 className="text-white lg:text-5xl text-3xl flex flex-row justify-center">
         Featured Projects
