@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../Styles/home.css";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+import Logo from "../assets/Logo.svg";
 // for image slider https://www.youtube.com/watch?v=tXlZCW26bto&t=187s&ab_channel=CodeCommerce
 function Home() {
   const slides = [
@@ -54,9 +55,14 @@ function Home() {
             website.
           </p>
         </div>
-        <img
+        {/*} <img
           className="pt-20 mx-auto sm:mr-20 sm:ml-0 sm:w-40 sm:h-40 md:w-56 md:h-56 lg:w-80 lg:h-96"
           src="https://jgpr.net/wp-content/uploads/2019/12/melrose-logo-1-300x300.png"
+          alt=""
+  /> **/}
+        <img
+          className="pt-20 mx-auto sm:mr-20 sm:ml-0 w-[25rem] h-[20rem] md:w-56 md:h-56 lg:w-[45rem] lg:h-96"
+          src={Logo}
           alt=""
         />
       </div>
