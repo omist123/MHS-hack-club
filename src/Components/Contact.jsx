@@ -35,13 +35,13 @@ function Contact() {
       </div>
 
       <img
-        className="self-center w-[11rem] h-[15rem] lg:w-[15rem] lg:h-[20rem] lg:rotate-[5deg] lg:mr-20 lg:mt-[14rem]"
+        className=" self-center w-[11rem] h-[15rem] md:self-center md:w-[11rem] md:h-[15rem] lg:w-[15rem] lg:h-[20rem] lg:rotate-[5deg] lg:mt-[14rem]"
         src={controller}
         alt=""
       />
 
       <img
-        className="w-[50rem] h-[20rem] lg:w-[40rem] lg:h-[20rem] lg:rotate-[-10deg] lg:mt-[16rem]"
+        className="w-[50rem] h-[20rem] lg:w-[40rem] lg:h-[20rem] lg:rotate-[-10deg] lg:mt-[16rem] lg:mr-[20rem] "
         src={sprig}
         alt=""
       />
