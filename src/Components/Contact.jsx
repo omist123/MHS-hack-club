@@ -1,9 +1,8 @@
-import sprig from "../assets/sprig.png";
-import controller from "../assets/download.png";
+import sprig from "../assets/sprig2.png";
 
 function Contact() {
   return (
-    <div className="flex flex-col lg:flex-row">
+    <div className="flex flex-col md:flex-col lg:flex-row">
       <div className="lg:w-3/4">
         <h1 className="text-white pt-20 text-5xl text-center lg:text-start lg:ml-14">
           Contact
@@ -34,17 +33,7 @@ function Contact() {
         </p>
       </div>
 
-      <img
-        className=" self-center w-[11rem] h-[15rem] md:self-center md:w-[11rem] md:h-[15rem] lg:w-[15rem] lg:h-[20rem] lg:rotate-[5deg] lg:mt-[14rem]"
-        src={controller}
-        alt=""
-      />
-
-      <img
-        className="w-[50rem] h-[20rem] lg:w-[40rem] lg:h-[20rem] lg:rotate-[-10deg] lg:mt-[16rem] lg:mr-[20rem] "
-        src={sprig}
-        alt=""
-      />
+      <img className=" lg:h-[45rem]" src={sprig} alt="" />
     </div>
   );
 }
