@@ -4,10 +4,10 @@ function Contact() {
   return (
     <div className="flex flex-col md:flex-col lg:flex-row">
       <div className="lg:w-3/4">
-        <h1 className="text-white pt-20 text-5xl text-center lg:text-start lg:ml-14">
+        <h1 className="text-white pt-20 text-3xl lg:text-5xl text-center lg:text-start lg:ml-14">
           Contact
         </h1>
-        <p className="text-white pt-20 text-3xl m-5 lg:ml-14 lg:w-[52rem]">
+        <p className="text-white pt-20 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
           Have any burning questions for us?
           <br />
           <br /> Email Owen with general inquiries or questions about{" "}

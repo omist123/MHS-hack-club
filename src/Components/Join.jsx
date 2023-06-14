@@ -5,7 +5,7 @@ import three from "../assets/3.svg";
 
 function Join() {
   return (
-    <div className="mx-20">
+    <div className="mx-5 lg:mx-20">
       <div className="flex flex-col items-start justify-center">
         <h1 className="text-white text-4xl py-14 items-start">Join us</h1>
         <p className="text-white text-3xl pb-14 items-start">
@@ -18,17 +18,17 @@ function Join() {
         <div className="flex">
           <div className="flex flex-col items-start">
             <img
-              className="lg:pb-14 pb-[10rem] self-start w-[200px] h-[200px]"
+              className="lg:pb-14 md:pb-14 pb-[13.5rem] self-start min-w-[45px]"
               src={one}
               alt=""
             />
             <img
-              className="lg:pb-14 pb-[7rem] self-start w-[200px] h-[200px]"
+              className="lg:pb-14 md:pb-14 pb-[10rem] self-start min-w-[45px]"
               src={two}
               alt=""
             />
             <img
-              className="lg:pb-14 pb-[10rem] self-start w-[200px] h-[200px]"
+              className="lg:pb-14 md:pb-14 pb-[10rem] self-start min-w-[45px]"
               src={three}
               alt=""
             />
@@ -42,7 +42,7 @@ function Join() {
               Experienced programmers can connect and collaborate on more
               advanced projects.
             </p>
-            <p className="pl-10 pt-10 md:pt-20 lg:pt-20">
+            <p className="pl-10 pt-5 md:pt-20 lg:pt-20">
               Free. Stickers. Need we say more?
             </p>
           </div>
@@ -53,7 +53,7 @@ function Join() {
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSe95N_MxtiiWM3XZB49AK-lUFF0Y6b0I-0jZr0JJScSPsBtmw/viewform?usp=sf_link"
         >
-          <button className="bg-red-500 hover:bg-red-400 text-white text-4xl font-bold py-8 px-10 rounded-[3rem]">
+          <button className="bg-red-500 hover:bg-red-400 text-white mb-10 text-2xl lg:text-4xl font-bold py-8 px-10 rounded-[3rem]">
             Join Now
           </button>
         </a>

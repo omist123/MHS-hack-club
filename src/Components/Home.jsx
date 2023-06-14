@@ -3,6 +3,8 @@ import "../Styles/home.css";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import Logo from "../assets/Logo.svg";
+import Q from "../assets/Q.svg";
+import A from "../assets/A.svg";
 // for image slider https://www.youtube.com/watch?v=tXlZCW26bto&t=187s&ab_channel=CodeCommerce
 function Home() {
   const slides = [
@@ -40,13 +42,13 @@ function Home() {
     <>
       <div className="flex flex-col justify-center items-center sm:flex-row sm:justify-evenly sm:items-center overflow-auto">
         <div className="flex flex-col self-start text-center sm:text-left">
-          <h1 className="text-white lg:pt-32 pt-10 lg:text-5xl text-2xl ml-7">
+          <h1 className="text-white lg:pt-32 pt-10 lg:text-5xl text-3xl ml-7">
             Melrose High School{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-600">
               Hack Club
             </span>
           </h1>
-          <p className="text-white lg:text-4xl text-xl sm:pt-20 pt-10 lg:pt-40 m-5 custom-w-class overflow-hidden">
+          <p className="text-white lg:text-4xl text-2xl sm:pt-20 pt-10 lg:pt-40 m-5 custom-w-class overflow-hidden">
             Welcome! Thanks for dropping by!
             <br />
             <br />
@@ -65,9 +67,8 @@ function Home() {
           src={Logo}
           alt=""
         />
-
       </div>
-      
+
       <div className="h-[400px]"></div>
       <h1 className="text-white lg:text-5xl text-3xl flex flex-row justify-center">
         Featured Projects
@@ -98,41 +99,55 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className="h-screen">
+      <div className="h-screen lg:max-w-[100rem] ">
         <h1 className="text-white text-4xl py-20 flex flex-col items-start ml-10">
           Frequently Asked Questions (FAQs)
         </h1>
         <div className="flex flex-row items-center ml-10">
-          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
-            <span className="text-4xl text-white font-bold">Q</span>
-          </div>
-          <p className="text-white text-3xl ml-4">
+          <img src={Q} alt="" />
+          <p className="text-white text-3xl ml-10">
             I have never programmed before. Can I still join?{" "}
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
-            <span className="text-4xl text-white font-bold">A</span>
-          </div>
-          <p className="text-white text-3xl ml-4">
+        <img src={A} alt="" />
+          <p className="text-white text-3xl ml-10">
             Of course! All MHS students interested in programming, regardless of
             prior experience, are welcome to join, learn, and create.
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
-            <span className="text-4xl text-white font-bold">Q</span>
-          </div>
-          <p className="text-white text-3xl ml-4">
-            Why is the sky blue? What is the meaning of life?
+        <img src={Q} alt="" />
+          <p className="text-white text-3xl ml-10">
+            Why is the club called “Hack Club”? Are you really “hacking”?{" "}
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-          <div className="w-16 h-16 bg-red-500 rounded-[1.4rem] flex items-center justify-center">
-            <span className="text-4xl text-white font-bold">A</span>
-          </div>
-          <p className="text-white text-3xl ml-4">
-            “this deap bro” -Owen Mistretta, 2023
+        <img src={A} alt="" />
+          <p className="text-white text-3xl ml-10">
+            By hacking, we mean thriving on technological challenges and
+            opportunities with creativity in the face of conformity. Read the{" "}
+            <span className="underline text-red-500">
+              {" "}
+              <a href="https://gist.github.com/zachlatta/1dd27adfb5d067770b8e56be5d56df77">
+                Hacker Manifesto{" "}
+              </a>
+            </span>{" "}
+            for more.
+          </p>
+        </div>
+        <div className="flex flex-row items-center ml-10 pt-10">
+        <img src={Q} alt="" />
+          <p className="text-white text-3xl ml-10">
+            Can I use a Chromebook to code, or will I need another device?{" "}
+          </p>
+        </div>
+        <div className="flex flex-row items-center ml-10 pt-10">
+        <img className="" src={A} alt="" />
+          <p className="text-white text-3xl ml-10">
+            Chromebook users can access many browser-based environments by
+            default, such as Replit and GitHub Codespaces, so yes! Laptop people
+            can bring those in as well :){" "}
           </p>
         </div>
       </div>
