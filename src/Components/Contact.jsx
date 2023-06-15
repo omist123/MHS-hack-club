@@ -1,14 +1,13 @@
-import sprig from "../assets/sprig.png";
-import controller from "../assets/download.png";
+import sprig from "../assets/sprig2.png";
 
 function Contact() {
   return (
-    <div className="flex flex-col lg:flex-row">
+    <div className="flex flex-col md:flex-col lg:flex-row">
       <div className="lg:w-3/4">
-        <h1 className="text-white pt-20 text-5xl text-center lg:text-start lg:ml-14">
+        <h1 className="text-white pt-20 text-3xl lg:text-5xl text-center lg:text-start lg:ml-14">
           Contact
         </h1>
-        <p className="text-white pt-20 text-3xl m-5 lg:ml-14 lg:w-[52rem]">
+        <p className="text-white pt-20 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
           Have any burning questions for us?
           <br />
           <br /> Email Owen with general inquiries or questions about{" "}
@@ -34,17 +33,7 @@ function Contact() {
         </p>
       </div>
 
-      <img
-        className="self-center w-[11rem] h-[15rem] lg:w-[15rem] lg:h-[20rem] lg:rotate-[5deg] lg:mr-20 lg:mt-[14rem]"
-        src={controller}
-        alt=""
-      />
-
-      <img
-        className="w-[50rem] h-[20rem] lg:w-[40rem] lg:h-[20rem] lg:rotate-[-10deg] lg:mt-[16rem]"
-        src={sprig}
-        alt=""
-      />
+      <img className=" lg:h-[45rem]" src={sprig} alt="" />
     </div>
   );
 }
