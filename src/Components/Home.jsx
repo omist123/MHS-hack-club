@@ -61,7 +61,7 @@ function Home() {
           alt=""
   /> **/}
         <img
-          className="pt-20 mx-auto sm:mr-20 sm:ml-0 w-[25rem] h-[20rem] md:w-56 md:h-56 lg:w-[45rem] lg:h-96"
+          className="pt-20 mx-auto sm:mr-20 sm:ml-0 w-[25rem] h-[20rem] md:w-56 md:h-56 lg:w-[35rem] lg:h-96  "
           src={Logo}
           alt=""
         />
