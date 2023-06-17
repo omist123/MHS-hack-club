@@ -2,7 +2,7 @@ import sprig from "../assets/sprig2.png";
 
 function Contact() {
   return (
-    <div className="flex flex-col md:flex-col lg:flex-row">
+    <div className="flex flex-col md:flex-col lg:flex-row overflow-hidden">
       <div className="lg:w-3/4">
         <h1 className="text-white pt-20 text-3xl lg:text-5xl text-center lg:text-start lg:ml-14">
           Contact

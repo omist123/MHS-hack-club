@@ -5,48 +5,36 @@ import three from "../assets/3.svg";
 
 function Join() {
   return (
-    <div className="mx-5 lg:mx-20">
-      <div className="flex flex-col items-start justify-center">
-        <h1 className="text-white text-4xl py-14 items-start">Join us</h1>
-        <p className="text-white text-3xl pb-14 items-start">
-          Thinking of joining MHS Hack Club? Great! Unsure if we’re the club for
-          you? Here’s a three-point thesis statement explaining why you should
-          join us:
+    <div className="mx-5 lg:mx-20 box-border">
+
+      <h1 className="text-white text-4xl mt-10">Join us</h1>
+      <div className="flex flex-row items-center mt-10">
+        <p className="text-white text-3xl ">Thinking of joining MHS Hack Club?
+Great! Unsure if we’re the club for you?
+Here’s a three-point thesis statement
+explaining why you should join us:</p>
+      </div>
+      <div className="flex flex-row items-center  mt-20">
+        <img src={one} alt="" />
+        <p className="text-white text-3xl ml-10">
+        Beginners can learn basic computer
+science skills without the pressure
+of a traditional class
         </p>
       </div>
-      <div className="flex flex-col items-start text-white text-3xl">
-        <div className="flex">
-          <div className="flex flex-col items-start">
-            <img
-              className="lg:pb-14 md:pb-14 pb-[13.5rem] self-start min-w-[45px]"
-              src={one}
-              alt=""
-            />
-            <img
-              className="lg:pb-14 md:pb-14 pb-[10rem] self-start min-w-[45px]"
-              src={two}
-              alt=""
-            />
-            <img
-              className="lg:pb-14 md:pb-14 pb-[10rem] self-start min-w-[45px]"
-              src={three}
-              alt=""
-            />
-          </div>
-          <div className="flex flex-col items-start">
-            <p className="pl-10">
-              Beginners can learn basic computer science skills without the
-              pressure of a traditional class.
-            </p>
-            <p className="pl-10 pt-10 md:pt-24 lg:pt-20">
-              Experienced programmers can connect and collaborate on more
-              advanced projects.
-            </p>
-            <p className="pl-10 pt-5 md:pt-20 lg:pt-20">
-              Free. Stickers. Need we say more?
-            </p>
-          </div>
-        </div>
+      <div className="flex flex-row items-center pt-10">
+        <img src={two} alt="" />
+        <p className="text-white text-3xl ml-10">
+        Experienced programmers can
+connect and collaborate on more
+advanced projects
+        </p>
+      </div>
+      <div className="flex flex-row items-center pt-10">
+        <img src={three} alt="" />
+        <p className="text-white text-3xl ml-10">
+        Free. Stickers. Need we say more?
+        </p>
       </div>
       <div className="flex items-center justify-center mt-10">
         <a
@@ -58,6 +46,7 @@ function Join() {
           </button>
         </a>
       </div>
+      
     </div>
   );
 }

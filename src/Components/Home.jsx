@@ -142,7 +142,7 @@ function Home() {
             Can I use a Chromebook to code, or will I need another device?{" "}
           </p>
         </div>
-        <div className="flex flex-row items-center ml-10 pt-10">
+        <div className="flex flex-row items-center ml-10 pt-10 pb-14">
         <img className="" src={A} alt="" />
           <p className="text-white text-3xl ml-10">
             Chromebook users can access many browser-based environments by
