@@ -7,7 +7,7 @@ function Contact() {
         <h1 className="text-white pt-20 text-3xl lg:text-5xl text-center lg:text-start lg:ml-14">
           Contact
         </h1>
-        <p className="text-white pt-20 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
+        <p className="text-white pt-10 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
           Have any burning questions for us?
           <br />
           <br /> Email Owen with general inquiries or questions about{" "}
@@ -30,6 +30,26 @@ function Contact() {
           <span className="underline text-red-500">
             rachel.lana.lin@gmail.com
           </span>{" "}
+        </p>
+        <p className="text-white pt-10 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
+          Follow our insta:
+          <span className="underline text-red-500 ml-2">
+            <a href="https://www.instagram.com/melrosehackclub/">
+              @melrosehackclub
+            </a>
+
+          </span>{" "}
+          
+        </p>
+        <p className="text-white pt-10 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
+          And join the 
+          <span className="underline text-red-500 ml-2">
+            <a href="https://discord.gg/SNsBuFZ4">
+            Discord
+            </a>
+
+          </span>{" "}
+          for communcation
         </p>
       </div>
 
