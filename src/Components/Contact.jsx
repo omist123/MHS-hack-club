@@ -17,7 +17,9 @@ function Contact() {
           this website:
           <br />
           <span className="underline text-red-500">
-            owenmistretta@gmail.com
+            <a href="mailto:owenmistretta@gmail.com">
+              owenmistretta@gmail.com
+            </a>
           </span>{" "}
           <br />
           <br />
@@ -28,28 +30,27 @@ function Contact() {
           this website:
           <br />{" "}
           <span className="underline text-red-500">
-            rachel.lana.lin@gmail.com
+            <a href="mailto:rachel.lana.lin@gmail.com">
+              rachel.lana.lin@gmail.com
+            </a>
           </span>{" "}
         </p>
         <p className="text-white pt-10 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
-          Follow our insta:
+          Follow our 
           <span className="underline text-red-500 ml-2">
             <a href="https://www.instagram.com/melrosehackclub/">
-              @melrosehackclub
+              Instagram
             </a>
 
           </span>{" "}
-          
-        </p>
-        <p className="text-white pt-10 text-2xl lg:text-3xl m-5 lg:ml-14 lg:w-[52rem]">
-          And join the 
+          account and join our 
           <span className="underline text-red-500 ml-2">
             <a href="https://discord.gg/SNsBuFZ4">
-            Discord
+              Discord
             </a>
 
           </span>{" "}
-          for communcation
+          server for further communication!
         </p>
       </div>
 

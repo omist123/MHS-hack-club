@@ -7,7 +7,7 @@ function Join() {
   return (
     <div className="mx-5 lg:mx-20 box-border">
 
-      <h1 className="text-white text-4xl mt-10">Join us</h1>
+      <h1 className="text-white text-4xl mt-10">Join</h1>
       <div className="flex flex-row items-center mt-10">
         <p className="text-white text-3xl ">Thinking of joining MHS Hack Club?
 Great! Unsure if we’re the club for you?

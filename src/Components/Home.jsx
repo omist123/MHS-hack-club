@@ -48,15 +48,19 @@ function Home() {
               Hack Club
             </span>
           </h1>
-          <p className="text-white lg:text-4xl text-2xl sm:pt-20 pt-10 lg:pt-40 m-5 custom-w-class overflow-hidden">
+          <p className="text-white lg:text-4xl text-2xl sm:pt-20 pt-10 lg:pt-20 m-5 custom-w-class overflow-hidden">
             Welcome! Thanks for dropping by!
             <br />
             <br />
-            MHS Hack Club is a space where students of all levels of experience
-            gather to collaborate and create cool things - for example, this
-            website.
+            MHS Hack Club is a space where students can collaborate
+            and create cool things—for example, this website—from all
+            levels of experience.
+            <br />
+            <br />
+            We meet Mondays after school in room 302. Feel free to
+            stop by and say hello!
           </p>
-        </div>
+        </div>6
         {/*} <img
           className="pt-20 mx-auto sm:mr-20 sm:ml-0 sm:w-40 sm:h-40 md:w-56 md:h-56 lg:w-80 lg:h-96"
           src="https://jgpr.net/wp-content/uploads/2019/12/melrose-logo-1-300x300.png"
@@ -147,7 +151,7 @@ function Home() {
           <p className="text-white text-3xl ml-10">
             Chromebook users can access many browser-based environments by
             default, such as Replit and GitHub Codespaces, so yes! Laptop people
-            can bring those in as well :){" "}
+            can bring those in as well.{" "}
           </p>
         </div>
       </div>
