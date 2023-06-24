@@ -1,7 +1,7 @@
 function Donate() {
   return (
     <div className="flex lg:flex-row lg:items-center lg:justify-center h-screen flex-col ">
-      <p className="lg:w-1/2 text-white lg:text-4xl lg:ml-28 lg:self-start lg:mt-36 pt-5 text-2xl mx-5">
+      <p className="lg:w-[52rem] text-white lg:text-4xl lg:ml-28 lg:self-start lg:mt-[5rem] lg:mb-20 mt-10 text-2xl mx-5">
         Feeling generous? MHS Hack Club is currently accepting donations! <br />
         <br />
         Any funds received will be used for Hack Club purposes only. Examples of
