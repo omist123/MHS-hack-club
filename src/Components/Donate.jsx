@@ -6,7 +6,7 @@ function Donate() {
         <br />
         Any funds received will be used for Hack Club purposes only. Examples of
         expenditures include purchasing{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-600">
+        <span classNa me="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-600">
           hardware
         </span>
         , software{" "}
