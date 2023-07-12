@@ -60,13 +60,12 @@ function Home() {
             Welcome! Thanks for dropping by!
             <br />
             <br />
-            MHS Hack Club is a space where students can collaborate
-            and create cool things—for example, this website—from all
-            levels of experience.
+            MHS Hack Club is a space where students can collaborate and create
+            cool things—for example, this website—from all levels of experience.
             <br />
             <br />
-            We meet Mondays after school in room 302. Feel free to
-            stop by and say hello!
+            We meet Mondays after school in room 302. Feel free to stop by and
+            say hello!
           </p>
         </div>  
         {/*} <img
@@ -129,20 +128,20 @@ function Home() {
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={A} alt="" />
+          <img src={A} alt="" />
           <p className="text-white text-3xl ml-10">
             Of course! All MHS students interested in programming, regardless of
             prior experience, are welcome to join, learn, and create.
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={Q} alt="" />
+          <img src={Q} alt="" />
           <p className="text-white text-3xl ml-10">
             Why is the club called “Hack Club”? Are you really “hacking”?{" "}
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={A} alt="" />
+          <img src={A} alt="" />
           <p className="text-white text-3xl ml-10">
             By hacking, we mean thriving on technological challenges and
             opportunities with creativity in the face of conformity. Read the{" "}
@@ -156,13 +155,13 @@ function Home() {
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={Q} alt="" />
+          <img src={Q} alt="" />
           <p className="text-white text-3xl ml-10">
             Can I use a Chromebook to code, or will I need another device?{" "}
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10 pb-14">
-        <img className="" src={A} alt="" />
+          <img className="" src={A} alt="" />
           <p className="text-white text-3xl ml-10">
             Chromebook users can access many browser-based environments by
             default, such as Replit and GitHub Codespaces, so yes! Laptop people
