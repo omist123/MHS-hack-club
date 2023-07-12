@@ -5,14 +5,16 @@ import { RxDotFilled } from "react-icons/rx";
 import Logo from "../assets/Logo.svg";
 import Q from "../assets/Q.svg";
 import A from "../assets/A.svg";
+import sprig from "../assets/sprigSS.png";
+import project2 from "../assets/weatherAPIsite.png";
 // for image slider https://www.youtube.com/watch?v=tXlZCW26bto&t=187s&ab_channel=CodeCommerce
 function Home() {
   const slides = [
     {
-      url: "https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+      url: "https://camo.githubusercontent.com/faa616e0bb4f52f2935d8dacc3012c5d321fa354c50f0f5e30bb5f25ac8c3bc3/68747470733a2f2f636c6f75642d6c39346c66626173772d6861636b2d636c75622d626f742e76657263656c2e6170702f30696d6167652e706e67",
     },
     {
-      url: "https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      url: { project2 },
     },
     {
       url: "https://images.unsplash.com/photo-1682686580003-22d3d65399a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ",
@@ -52,15 +54,14 @@ function Home() {
             Welcome! Thanks for dropping by!
             <br />
             <br />
-            MHS Hack Club is a space where students can collaborate
-            and create cool things—for example, this website—from all
-            levels of experience.
+            MHS Hack Club is a space where students can collaborate and create
+            cool things—for example, this website—from all levels of experience.
             <br />
             <br />
-            We meet Mondays after school in room 302. Feel free to
-            stop by and say hello!
+            We meet Mondays after school in room 302. Feel free to stop by and
+            say hello!
           </p>
-        </div>6
+        </div>
         {/*} <img
           className="pt-20 mx-auto sm:mr-20 sm:ml-0 sm:w-40 sm:h-40 md:w-56 md:h-56 lg:w-80 lg:h-96"
           src="https://jgpr.net/wp-content/uploads/2019/12/melrose-logo-1-300x300.png"
@@ -114,20 +115,20 @@ function Home() {
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={A} alt="" />
+          <img src={A} alt="" />
           <p className="text-white text-3xl ml-10">
             Of course! All MHS students interested in programming, regardless of
             prior experience, are welcome to join, learn, and create.
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={Q} alt="" />
+          <img src={Q} alt="" />
           <p className="text-white text-3xl ml-10">
             Why is the club called “Hack Club”? Are you really “hacking”?{" "}
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={A} alt="" />
+          <img src={A} alt="" />
           <p className="text-white text-3xl ml-10">
             By hacking, we mean thriving on technological challenges and
             opportunities with creativity in the face of conformity. Read the{" "}
@@ -141,13 +142,13 @@ function Home() {
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10">
-        <img src={Q} alt="" />
+          <img src={Q} alt="" />
           <p className="text-white text-3xl ml-10">
             Can I use a Chromebook to code, or will I need another device?{" "}
           </p>
         </div>
         <div className="flex flex-row items-center ml-10 pt-10 pb-14">
-        <img className="" src={A} alt="" />
+          <img className="" src={A} alt="" />
           <p className="text-white text-3xl ml-10">
             Chromebook users can access many browser-based environments by
             default, such as Replit and GitHub Codespaces, so yes! Laptop people
