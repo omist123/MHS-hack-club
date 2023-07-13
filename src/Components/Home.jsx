@@ -7,7 +7,7 @@ import Q from "../assets/Q.svg";
 import A from "../assets/A.svg";
 import weatherSite from "../assets/weatherSite.png"
 import sprigConsole from "../assets/sprigConsole.jpg";
-
+import cubyVid from "../assets/cubyVid.gif";
 // for image slider https://www.youtube.com/watch?v=tXlZCW26bto&t=187s&ab_channel=CodeCommerce
 function Home() {
   const slides = [
@@ -18,19 +18,11 @@ function Home() {
     {
       url: sprigConsole,
       description:"This is what the Sprig console looks like. To learn more about Sprig click the link below."
+    },
+    {
+      url: cubyVid, 
+      description: "This is a simple game we made in Unity named Cuby! "
     }
-    // {
-    //   url: "https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    // },
-    // {
-    //   url: "https://images.unsplash.com/photo-1682686580003-22d3d65399a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ",
-    // },
-    // {
-    //   url: "https://plus.unsplash.com/premium_photo-1669868116752-acd4bc7bc6a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9yaXpvbnRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    // },
-    // {
-    //   url: "https://images.unsplash.com/photo-1598449356475-b9f71db7d847?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9yaXpvbnRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    // },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
@@ -84,14 +76,14 @@ function Home() {
       <h1 className="text-white lg:text-5xl text-3xl flex flex-row justify-center">
         Featured Projects
       </h1>
-      <div className="max-w-[1400px] h-[780px] w-full m-auto my-2 py-16 px-4 relative group">
+      <div className="max-w-[1400px] h-[780px] w-full m-auto my-2 py-16 px-4 relative group ">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+        className="w-full h-full rounded-2xl bg-center bg-cover  duration-500 filter brightness-75"
       ></div>
-      <div className="absolute top-[15rem] left-0 w-full h-full flex flex-col justify-center items-center">
-          <p className="text-white text-2xl">{slides[currentIndex].description}</p>
-        </div>
+       <div className="absolute top-[75%] left-1/2 transform -translate-y-1/2 -translate-x-1/2">
+      <p className="text-white text-2xl">{slides[currentIndex].description}</p>
+    </div>
 
 
         {/*left icon*/}
@@ -115,8 +107,7 @@ function Home() {
         </div>
         
       </div>
-      <div className="flex justify-center items-center text-red-500 text-xl"> Click this link to learn more about <span className="underline hover:text-white"><a href="https://sprig.hackclub.com/#:~:text=Sprig%3A%20a%20fantasy%20console%2C%20turned%20real&text=It%20comes%20disassembled%20and%20every,beginners%2C%20yet%20entertaining%20for%20masters."> Sprig</a></span></div>
-
+          <a className="flex items-end justify-center  text-red-500 underline" href="https://sprig.hackclub.com/#:~:text=Sprig%3A%20a%20fantasy%20console%2C%20turned%20real&text=It%20comes%20disassembled%20and%20every,beginners%2C%20yet%20entertaining%20for%20masters.">Click here to learn more about Sprig</a>
       <div className="h-screen lg:max-w-[100rem] ">
         <h1 className="text-white text-4xl py-20 flex flex-col items-start ml-10">
           Frequently Asked Questions (FAQs)
