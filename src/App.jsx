@@ -7,22 +7,8 @@ import Contact from "./Components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    // let component;
-    // switch (window.location.pathname) {
-    //   case "/":
-    //     component = <Home />;
-    //     break;
-    //   case "/donate":
-    //     component = <Donate />;
-    //     break;
-    //   case "/join":
-    //     component = <Join />;
-    //     break;
-    //   case "/contact":
-    //     component = <Contact />;
-    //     break;
     <BrowserRouter>
-     <Navbar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="donate" element={<Donate />} />

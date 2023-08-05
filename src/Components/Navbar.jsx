@@ -2,6 +2,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import "../Styles/navbar.css";
 import logo from "../assets/hackclub-flag.svg";
+import { Link } from "react-router-dom";
+
 function Navbar() {
   const navRef = useRef();
 
@@ -14,12 +16,13 @@ function Navbar() {
         <img className="w-36 h-36 " src={logo} alt="" />
 
         <nav ref={navRef}>
-          <a href="/">Home</a>
-          <a href="/join">Join</a>
-          <a href="/donate">Donate</a>
-          <a className="contact-btn" href="/contact">
+          <Link to="/">Home</Link>
+          <Link to="/join">Join</Link>
+          <Link to="/donate">Donate</Link>
+
+          <Link className="contact-btn" to="/contact">
             Contact
-          </a>
+          </Link>
 
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
