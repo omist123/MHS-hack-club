@@ -8,6 +8,7 @@ import A from "../assets/A.svg";
 import weatherSite from "../assets/weatherSite.png"
 import sprigConsole from "../assets/sprigConsole.jpg";
 import cubyVid from "../assets/cubyVid.gif";
+import pacman from "../assets/pacman.png"
 // for image slider https://www.youtube.com/watch?v=tXlZCW26bto&t=187s&ab_channel=CodeCommerce
 function Home() {
   const slides = [
@@ -22,6 +23,10 @@ function Home() {
     {
       url: cubyVid, 
       description: "This is a simple game we made in Unity named Cuby! "
+    },
+    {
+      url: pacman,
+      description: "This a pacman clone that we made in the Sprig console."
     }
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
