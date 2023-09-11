@@ -45,7 +45,7 @@ function Contact() {
           </span>{" "}
           account and join our 
           <span className="underline text-red-500 ml-2">
-            <a href="https://discord.gg/SNsBuFZ4">
+            <a href="https://discord.gg/JrThX7Nvw6">
               Discord
             </a>
 
